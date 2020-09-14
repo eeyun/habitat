@@ -33,11 +33,11 @@ Head over to the Chef Habitat Builder sign-in page at [https://bldr.habitat.sh/#
 1. To sign in with an existing GitHub account, select **Sign in with GitHub**
 1. If you need to set up a GitHub account, select the **Sign up here** link
 
-![Chef Habitat sign in with Github](/images/screenshots/builder_signin.png)
+![Chef Habitat sign in with Github](/images/builder_signin.png)
 
 Signing in with your GitHub account and authorizing the Chef Habitat Builder application the first time you sign in grants you access to the Chef Habitat Builder platform. Once you've completed signing in and authorizing Chef Habitat Builder, you'll arrive at the 'My Origins' view.
 
-![Authorize the Chef Habitat Application](/images/screenshots/authorize.png)
+![Authorize the Chef Habitat Application](/images/authorize.png)
 
 ## Set up your Profile
 
@@ -49,13 +49,13 @@ Use the _Profile_ tab to:
 
 Access your profile by selecting the **round icon at the top right corner** of any page. Select the **profiles** option from the drop-down menu to  customize your profile and create your personal access token.
 
-![Access your Chef Habitat Builder profile](/images/screenshots/builder_profile.png)
+![Access your Chef Habitat Builder profile](/images/builder_profile.png)
 
 ### Register an Email Address
 
 Adding an email address to your profile gives the Chef Habitat team permission to contact you directly about important information. If you use an email address associated with a GitHub account, it will also use your GitHub avatar. Save your changes by selecting **save**.
 
-![Register your email address](/images/screenshots/builder_profile_user.png)
+![Register your email address](/images/builder_profile_user.png)
 
 ### <a name="builder-token" id="builder-token" data-magellan-target="builder-token">Create a Personal Access Token </a>
 
@@ -63,11 +63,11 @@ Chef Habitat Builder uses an access token, called a _personal access token_ or a
 
 Create your personal access token at the bottom of the profile page (below the save button), by selecting **Generate Token**.
 
-![Create your personal access token](/images/screenshots/generate-token.png)
+![Create your personal access token](/images/generate-token.png)
 
 Your generated access token will appear in the field. The access token is visible in the tab once, and navigating away from or reloading the page will cause it to vanish from the display. Copy your access token by selecting the icon on the right side of the field and set it as an environment variable before continuing.
 
-![Copy your personal access token](/images/screenshots/copy-token.png)
+![Copy your personal access token](/images/copy-token.png)
 
 ####  <a name="builder-token-windows" id="builder-token-windows" data-magellan-target="builder-token-windows">Set the personal access token as a Windows Environment Variable</a>
 
@@ -85,15 +85,15 @@ You can also save your personal access token as a permanent environment variable
 
 This opens the `System Properties` window on the `Advanced` tab. Select the `Environment Variables` button.
 
-![Navigate to Windows Environment Variables](/images/screenshots/environment_variable.png)
+![Navigate to Windows Environment Variables](/images/environment_variable.png)
 
 In the next window, select the `New` button in the top part. This opens a dialog box that lets you set individual user variables.
 
-![Make new user variable](/images/screenshots/environment_variable_new.png)
+![Make new user variable](/images/environment_variable_new.png)
 
 Create a permanent environment variable by entering `HAB_AUTH_TOKEN` as the variable name. Next, paste the authorization token that you copied after you generated a new token on your profile page as the variable value. After you select the `OK`, you will see the new token in the user variables field.
 
-![Save your HAB_AUTH_TOKEN](/images/screenshots/environment_variable_new_var.png)
+![Save your HAB_AUTH_TOKEN](/images/environment_variable_new_var.png)
 
 To test that your new token works correctly, open the Command Prompt---which you can find by entering command in the Windows search box---and entering `echo %HAB_AUTH_TOKEN%`. You should see the value that you pasted into the environment variable.
 

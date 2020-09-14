@@ -11,4 +11,4 @@ description = "Chef Habitat Architecture Overview"
 
 +++
 
-![Chef Habitat Architecture Overview Diagram](/images/infographics/habitat-architecture-overview.png)
+![Chef Habitat Architecture Overview Diagram](/images/habitat-architecture-overview.png)

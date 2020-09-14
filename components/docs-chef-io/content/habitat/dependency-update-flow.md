@@ -11,5 +11,5 @@ description = "Dependency Update Flow"
 
 +++
 
-![Chef Habitat Dependency Update Flow Diagram](/images/infographics/habitat-dependency-update-flow.png)
+![Chef Habitat Dependency Update Flow Diagram](/images/habitat-dependency-update-flow.png)
 

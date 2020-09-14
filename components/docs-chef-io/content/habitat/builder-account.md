@@ -20,6 +20,6 @@ Use the button below to simultaneously sign in to Builder and create your accoun
 
 <a href="https://bldr.habitat.sh/#/sign-in" class="button cta" target="_blank">Sign in to Builder</a>
 
-<img src="/images/screenshots/authorize.png">
+<img src="/images/authorize.png">
 
 Once you have authorized Chef Habitat and signed in, you'll arrive at the 'My Origins' view. At this point, other Chef Habitat users can invite you to existing origins or you can proceed to create your own (see the next section).
