@@ -12,14 +12,12 @@ expeditor:
         HAB_ORIGIN: "habitat-testing" # just to be safe
         HAB_BLDR_URL: "https://bldr.habitat.sh"
 
-        # In "real" runs of this pipeline, these channels must always
-        # be "dev". They are extracted here as environment variables
-        # (thus making them overridable) in order to facilitate ad-hoc
+        # In "real" runs of this pipeline, this channel must always
+        # be "dev". It is extracted here as an environment variable
+        # (thus making it overridable) in order to facilitate ad-hoc
         # testing of artifacts from arbitrary channels (e.g., as part
-        # of validating a core plans refresh). Both values should
-        # always be the same.
+        # of validating a core plans refresh).
         HAB_BLDR_CHANNEL: "dev"
-        HAB_INTERNAL_BLDR_CHANNEL: "dev"
 
 steps:
 #######################################################################
