@@ -424,7 +424,7 @@ steps:
 
   - label: "[:windows: test_studio_profile]"
     command:
-      - powershell .expeditor/scripts/end_to_end/run_e2e_test.ps1 \$HAB_BLDR_CHANNEL test_studio_profile
+      - powershell .expeditor/scripts/end_to_end/run_e2e_test.ps1 $HAB_BLDR_CHANNEL test_studio_profile
     expeditor:
       executor:
         docker:
@@ -439,7 +439,7 @@ steps:
 
   - label: "[:windows: :docker: test_studio_profile]"
     command:
-      - powershell .expeditor/scripts/end_to_end/run_e2e_test.ps1 \$HAB_BLDR_CHANNEL test_studio_profile
+      - powershell .expeditor/scripts/end_to_end/run_e2e_test.ps1 $HAB_BLDR_CHANNEL test_studio_profile
     env:
       BUILD_PKG_TARGET: x86_64-windows
       DOCKER_STUDIO_TEST: true
