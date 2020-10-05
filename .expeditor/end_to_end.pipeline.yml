@@ -780,7 +780,7 @@ steps:
 
   - label: "[:linux: test_config_files]"
     command:
-      - bash .expeditor/scripts/end_to_end/run_e2e_test.sh \$HAB_BLDR_CHANNEL test_config_files
+      - bash .expeditor/scripts/end_to_end/run_e2e_test.sh $HAB_BLDR_CHANNEL test_config_files
     env:
       BUILD_PKG_TARGET: x86_64-linux
     expeditor:
@@ -793,7 +793,7 @@ steps:
 
   - label: "[:windows: test_config_files]"
     command:
-      - powershell .expeditor/scripts/end_to_end/run_e2e_test.ps1 \$HAB_BLDR_CHANNEL test_config_files
+      - powershell .expeditor/scripts/end_to_end/run_e2e_test.ps1 $HAB_BLDR_CHANNEL test_config_files
     env:
       BUILD_PKG_TARGET: x86_64-windows
     expeditor:
